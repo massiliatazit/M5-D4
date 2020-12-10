@@ -1,0 +1,30 @@
+{
+  "name": "m5-d4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx kill-port 4000  && nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massiliatazit/M5-D4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massiliatazit/M5-D4/issues"
+  },
+  "homepage": "https://github.com/massiliatazit/M5-D4#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "fs-extra": "^9.0.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "uniqid": "^5.2.0"
+  }
+}
